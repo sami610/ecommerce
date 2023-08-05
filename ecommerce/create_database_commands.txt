@@ -1,0 +1,5 @@
+create database ecommerce;
+use ecommerce;
+
+CREATE USER 'testuser'@'localhost' IDENTIFIED BY 'testuserpw';
+GRANT ALL PRIVILEGES ON ecommerce.* TO 'testuser'@'localhost';
